@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s \"g:\\My Drive\\University of Adelaide\\02_RESEARCH\\03_Pipelines_and_Tools\\ODE Model Creator\\ver 2.0.0\")",
+      "Bash(python3:*)",
+      "Bash(matlab -batch:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

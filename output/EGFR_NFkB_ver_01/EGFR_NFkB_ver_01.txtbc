@@ -1,0 +1,413 @@
+********** MODEL NAME
+
+EGFR_NFkB_ver_01
+
+********** MODEL NOTES
+
+
+
+********** MODEL STATE INFORMATION
+
+AKT(0) = 51         
+AKT_p(0) = 91       
+AP1(0) = 25         
+AP1_a(0) = 41       
+AURKA(0) = 76       
+AURKAm(0) = 23      
+COX2(0) = 7         
+COX2m(0) = 29       
+EGF(0) = 16         
+EGFR(0) = 93        
+EGFR_p(0) = 81      
+EGFm(0) = 63        
+ERK(0) = 88         
+ERK_p(0) = 81       
+IKB(0) = 18         
+IKBm(0) = 90        
+IKK(0) = 54         
+IKK_a(0) = 81       
+IL6(0) = 90         
+IL6m(0) = 32        
+JAK(0) = 11         
+JAK_a(0) = 23       
+Myc(0) = 43         
+NFkB(0) = 82        
+NFkBnIKB(0) = 86    
+PGE2(0) = 0         
+PI3K(0) = 51        
+PI3K_a(0) = 42      
+PIP2(0) = 22        
+PIP3(0) = 12        
+PKC(0) = 34         
+PKC_a(0) = 95       
+PTEN(0) = 32        
+RAS(0) = 52         
+RAS_a(0) = 71       
+STAT3(0) = 36       
+STAT3_p(0) = 98     
+TNFR1(0) = 97       
+TNFR1_a(0) = 25     
+TNFR1_p(0) = 50     
+TNFa(0) = 30        
+TNFam(0) = 28       
+TTP(0) = 3          
+ZFP36(0) = 61       
+mTORC1(0) = 50      
+mTORC1_a(0) = 5     
+mTORC2(0) = 28      
+mTORC2_a(0) = 91    
+
+********** MODEL PARAMETERS
+
+Ki_PI3K_PI3K_a_EGFR_p_OSM = 0.1
+Ki_PKC_PKC_a_EGFR_p_OSM = 0.1
+Ki_RAS_RAS_a_EGFR_p_OSM = 0.1
+Ki_TNFR1_TNFR1_p_EGFR_p_OSM = 0.1
+Ki_syn_PTEN_NFkB = 0.1
+Vm_AKT_p_AKT = 0.01 
+Vm_AP1_a_AP1 = 0.01 
+Vm_EGFR_p_EGFR = 0.01
+Vm_ERK_p_ERK = 0.01 
+Vm_IKK_a_IKK = 0.01 
+Vm_JAK_a_JAK = 0.01 
+Vm_PI3K_a_PI3K = 0.01
+Vm_PIP2_PIP3 = 0.01 
+Vm_PIP3_PIP2 = 0.01 
+Vm_PKC_a_PKC = 0.01 
+Vm_RAS_a_RAS = 0.01 
+Vm_STAT3_p_STAT3 = 0.01
+Vm_TNFR1_a_TNFR1 = 0.01
+Vm_TNFR1_p_TNFR1 = 0.01
+Vm_mTORC1_a_mTORC1 = 0.01
+Vm_mTORC2_a_mTORC2 = 0.01
+Vsyn_AURKAm = 0.01  
+Vsyn_COX2m = 0.01   
+Vsyn_EGFm = 0.01    
+Vsyn_IKBm = 0.01    
+Vsyn_IL6m = 0.01    
+Vsyn_Myc = 0.01     
+Vsyn_NFkB = 0.01    
+Vsyn_PGE2 = 0.01    
+Vsyn_PTEN = 0.01    
+Vsyn_TNFam = 0.01   
+Vsyn_ZFP36 = 0.01   
+ka_IKB_NFkB_NFkBnIKB = 0.01
+kalpha_COX2m_NFkB_STAT3_p = 0.01
+kalpha_EGFm_NFkB_STAT3_p = 0.01
+kalpha_IKBm_NFkB_STAT3_p = 0.01
+kalpha_IL6m_NFkB_STAT3_p = 0.01
+kalpha_TNFam_NFkB_STAT3_p = 0.01
+kalpha_ZFP36_NFkB_STAT3_p = 0.01
+kc_AKT_AKT_p_PI3K_a = 0.01
+kc_AKT_AKT_p_mTORC2_a = 0.01
+kc_AP1_AP1_a_ERK_p = 0.01
+kc_EGFR_EGFR_p_EGF = 0.01
+kc_ERK_ERK_p_RAS_a = 0.01
+kc_IKK_IKK_a_AKT_p = 0.01
+kc_IKK_IKK_a_PKC_a = 0.01
+kc_IKK_IKK_a_TNFR1_a = 0.01
+kc_JAK_JAK_a_EGFR_p = 0.01
+kc_JAK_JAK_a_IL6 = 0.01
+kc_PI3K_PI3K_a_EGFR_p = 0.01
+kc_PIP2_PIP3_PI3K_a = 0.01
+kc_PIP3_PIP2_PTEN = 0.01
+kc_PKC_PKC_a_EGFR_p = 0.01
+kc_PKC_PKC_a_PGE2 = 0.01
+kc_RAS_RAS_a_EGFR_p = 0.01
+kc_STAT3_STAT3_p_JAK_a = 0.01
+kc_TNFR1_TNFR1_a_TNFa = 0.01
+kc_TNFR1_TNFR1_p_EGFR_p = 0.01
+kc_mTORC1_mTORC1_a_AKT_p = 0.01
+kc_mTORC2_mTORC2_a_IKK_a = 0.01
+kd_NFkBnIKB_IKB_NFkB = 0.1
+kdeg_AURKA = 0.1    
+kdeg_AURKAm = 0.1   
+kdeg_COX2 = 0.1     
+kdeg_COX2m = 0.1    
+kdeg_EGF = 0.1      
+kdeg_EGFm = 0.1     
+kdeg_IKB = 0.1      
+kdeg_IKB_AURKA = 0.1
+kdeg_IKB_IKK_a = 0.1
+kdeg_IKBm = 0.1     
+kdeg_IL6 = 0.1      
+kdeg_IL6m = 0.1     
+kdeg_IL6m_TTP = 0.1 
+kdeg_Myc = 0.1      
+kdeg_NFkB = 0.1     
+kdeg_NFkB_TTP = 0.1 
+kdeg_PGE2 = 0.1     
+kdeg_PTEN = 0.1     
+kdeg_TNFa = 0.1     
+kdeg_TNFam = 0.1    
+kdeg_TNFam_TTP = 0.1
+kdeg_TTP = 0.1      
+kdeg_ZFP36 = 0.1    
+ksyn_AURKA_AURKAm = 0.05
+ksyn_AURKAm_Myc = 0.05
+ksyn_COX2_COX2m = 0.05
+ksyn_COX2m_NFkB = 0.05
+ksyn_EGF_EGFm = 0.05
+ksyn_EGFm_AP1_a = 0.05
+ksyn_EGFm_NFkB = 0.05
+ksyn_IKB_IKBm = 0.05
+ksyn_IKBm_NFkB = 0.05
+ksyn_IL6_IL6m = 0.05
+ksyn_IL6m_NFkB = 0.05
+ksyn_Myc_mTORC1_a = 0.05
+ksyn_PGE2_COX2 = 0.05
+ksyn_TNFa_TNFam = 0.05
+ksyn_TNFam_NFkB = 0.05
+ksyn_TTP_ZFP36 = 0.05
+ksyn_ZFP36_NFkB = 0.05
+
+% input parameters
+
+
+% drug input parameters
+
+OSM_0 = 100         
+OSM_on = 10000      
+
+********** MODEL VARIABLES
+
+AKT_tot = AKT + AKT_p
+AP1_tot = AP1 + AP1_a
+EGFR_tot = EGFR + EGFR_p
+ERK_tot = ERK + ERK_p
+IKB_tot = IKB + NFkBnIKB
+IKK_tot = IKK + IKK_a
+JAK_tot = JAK + JAK_a
+mTORC1_tot = mTORC1 + mTORC1_a
+mTORC2_tot = mTORC2 + mTORC2_a
+NFkB_tot = NFkB + NFkBnIKB
+PI3K_tot = PI3K + PI3K_a
+PIP_tot = PIP2 + PIP3
+PKC_tot = PKC + PKC_a
+RAS_tot = RAS + RAS_a
+STAT3_tot = STAT3 + STAT3_p
+TNFR1_tot = TNFR1 + TNFR1_a + TNFR1_p
+
+% model input parameters
+
+
+% drug input parameters
+
+OSM = OSM_0 * piecewiseIQM(1, ge(time, OSM_on), 0)
+
+********** MODEL REACTIONS
+
+AKT=>AKT_p:R1       
+vf = (kc_AKT_AKT_p_PI3K_a*PI3K_a+kc_AKT_AKT_p_mTORC2_a*mTORC2_a)*AKT - Vm_AKT_p_AKT*AKT_p
+
+AP1=>AP1_a:R2       
+vf = (kc_AP1_AP1_a_ERK_p*ERK_p)*AP1 - Vm_AP1_a_AP1*AP1_a
+
+AURKA=>:R3          
+vf = kdeg_AURKA*AURKA
+
+=>AURKA:R4          
+vf = (ksyn_AURKA_AURKAm*AURKAm)
+
+AURKAm=>:R5         
+vf = kdeg_AURKAm*AURKAm
+
+=>AURKAm:R6         
+vf = Vsyn_AURKAm    
+
+=>AURKAm:R7         
+vf = (ksyn_AURKAm_Myc*Myc)
+
+COX2=>:R8           
+vf = kdeg_COX2*COX2 
+
+=>COX2:R9           
+vf = (ksyn_COX2_COX2m*COX2m)
+
+COX2m=>:R10         
+vf = kdeg_COX2m*COX2m
+
+=>COX2m:R11         
+vf = Vsyn_COX2m     
+
+=>COX2m:R12         
+vf = (ksyn_COX2m_NFkB*NFkB*(1 + kalpha_COX2m_NFkB_STAT3_p*STAT3_p))
+
+EGF=>:R13           
+vf = kdeg_EGF*EGF   
+
+=>EGF:R14           
+vf = (ksyn_EGF_EGFm*EGFm)
+
+EGFm=>:R15          
+vf = kdeg_EGFm*EGFm 
+
+=>EGFm:R16          
+vf = Vsyn_EGFm      
+
+=>EGFm:R17          
+vf = (ksyn_EGFm_NFkB*NFkB*(1 + kalpha_EGFm_NFkB_STAT3_p*STAT3_p))
+
+=>EGFm:R18          
+vf = (ksyn_EGFm_AP1_a*AP1_a)
+
+EGFR=>EGFR_p:R19    
+vf = (kc_EGFR_EGFR_p_EGF*EGF)*EGFR - Vm_EGFR_p_EGFR*EGFR_p
+
+ERK=>ERK_p:R20      
+vf = (kc_ERK_ERK_p_RAS_a*RAS_a)*ERK - Vm_ERK_p_ERK*ERK_p
+
+IKB+NFkB=>NFkBnIKB:R21
+vf = (ka_IKB_NFkB_NFkBnIKB*IKB*NFkB) - kd_NFkBnIKB_IKB_NFkB*NFkBnIKB
+
+IKB=>:R22           
+vf = kdeg_IKB*IKB   
+
+IKB=>:R23           
+vf = (kdeg_IKB_IKK_a*IKB*IKK_a+kdeg_IKB_AURKA*IKB*AURKA)
+
+=>IKB:R24           
+vf = (ksyn_IKB_IKBm*IKBm)
+
+IKBm=>:R25          
+vf = kdeg_IKBm*IKBm 
+
+=>IKBm:R26          
+vf = Vsyn_IKBm      
+
+=>IKBm:R27          
+vf = (ksyn_IKBm_NFkB*NFkB*(1 + kalpha_IKBm_NFkB_STAT3_p*STAT3_p))
+
+IKK=>IKK_a:R28      
+vf = (kc_IKK_IKK_a_TNFR1_a*TNFR1_a+kc_IKK_IKK_a_PKC_a*PKC_a+kc_IKK_IKK_a_AKT_p*AKT_p)*IKK - Vm_IKK_a_IKK*IKK_a
+
+IL6=>:R29           
+vf = kdeg_IL6*IL6   
+
+=>IL6:R30           
+vf = (ksyn_IL6_IL6m*IL6m)
+
+IL6m=>:R31          
+vf = kdeg_IL6m*IL6m 
+
+IL6m=>:R32          
+vf = (kdeg_IL6m_TTP*IL6m*TTP)
+
+=>IL6m:R33          
+vf = Vsyn_IL6m      
+
+=>IL6m:R34          
+vf = (ksyn_IL6m_NFkB*NFkB*(1 + kalpha_IL6m_NFkB_STAT3_p*STAT3_p))
+
+JAK=>JAK_a:R35      
+vf = (kc_JAK_JAK_a_IL6*IL6+kc_JAK_JAK_a_EGFR_p*EGFR_p)*JAK - Vm_JAK_a_JAK*JAK_a
+
+mTORC1=>mTORC1_a:R36
+vf = (kc_mTORC1_mTORC1_a_AKT_p*AKT_p)*mTORC1 - Vm_mTORC1_a_mTORC1*mTORC1_a
+
+mTORC2=>mTORC2_a:R37
+vf = (kc_mTORC2_mTORC2_a_IKK_a*IKK_a)*mTORC2 - Vm_mTORC2_a_mTORC2*mTORC2_a
+
+Myc=>:R38           
+vf = kdeg_Myc*Myc   
+
+=>Myc:R39           
+vf = Vsyn_Myc       
+
+=>Myc:R40           
+vf = (ksyn_Myc_mTORC1_a*mTORC1_a)
+
+=>NFkB:R41          
+vf = Vsyn_NFkB      
+
+NFkB=>:R42          
+vf = kdeg_NFkB*NFkB 
+
+NFkB=>:R43          
+vf = (kdeg_NFkB_TTP*NFkB*TTP)
+
+PGE2=>:R44          
+vf = kdeg_PGE2*PGE2 
+
+=>PGE2:R45          
+vf = Vsyn_PGE2      
+
+=>PGE2:R46          
+vf = (ksyn_PGE2_COX2*COX2)
+
+PI3K=>PI3K_a:R47    
+vf = (kc_PI3K_PI3K_a_EGFR_p*EGFR_p)*PI3K/((1 + Ki_PI3K_PI3K_a_EGFR_p_OSM*OSM)) - Vm_PI3K_a_PI3K*PI3K_a
+
+PIP2=>PIP3:R48      
+vf = (kc_PIP2_PIP3_PI3K_a*PI3K_a)*PIP2 - Vm_PIP3_PIP2*PIP3
+
+PIP3=>PIP2:R49      
+vf = (kc_PIP3_PIP2_PTEN*PTEN)*PIP3 - Vm_PIP2_PIP3*PIP2
+
+PKC=>PKC_a:R50      
+vf = (kc_PKC_PKC_a_EGFR_p*EGFR_p)*PKC/((1 + Ki_PKC_PKC_a_EGFR_p_OSM*OSM)) - Vm_PKC_a_PKC*PKC_a
+
+PKC=>PKC_a:R51      
+vf = (kc_PKC_PKC_a_PGE2*PGE2)*PKC - Vm_PKC_a_PKC*PKC_a
+
+PTEN=>:R52          
+vf = kdeg_PTEN*PTEN 
+
+=>PTEN:R53          
+vf = Vsyn_PTEN/((1 + Ki_syn_PTEN_NFkB*NFkB))
+
+RAS=>RAS_a:R54      
+vf = (kc_RAS_RAS_a_EGFR_p*EGFR_p)*RAS/((1 + Ki_RAS_RAS_a_EGFR_p_OSM*OSM)) - Vm_RAS_a_RAS*RAS_a
+
+STAT3=>STAT3_p:R55  
+vf = (kc_STAT3_STAT3_p_JAK_a*JAK_a)*STAT3 - Vm_STAT3_p_STAT3*STAT3_p
+
+TNFa=>:R56          
+vf = kdeg_TNFa*TNFa 
+
+=>TNFa:R57          
+vf = (ksyn_TNFa_TNFam*TNFam)
+
+TNFam=>:R58         
+vf = kdeg_TNFam*TNFam
+
+TNFam=>:R59         
+vf = (kdeg_TNFam_TTP*TNFam*TTP)
+
+=>TNFam:R60         
+vf = Vsyn_TNFam     
+
+=>TNFam:R61         
+vf = (ksyn_TNFam_NFkB*NFkB*(1 + kalpha_TNFam_NFkB_STAT3_p*STAT3_p))
+
+TNFR1=>TNFR1_a:R62  
+vf = (kc_TNFR1_TNFR1_a_TNFa*TNFa)*TNFR1 - Vm_TNFR1_a_TNFR1*TNFR1_a
+
+TNFR1=>TNFR1_p:R63  
+vf = (kc_TNFR1_TNFR1_p_EGFR_p*EGFR_p)*TNFR1/((1 + Ki_TNFR1_TNFR1_p_EGFR_p_OSM*OSM)) - Vm_TNFR1_p_TNFR1*TNFR1_p
+
+TTP=>:R64           
+vf = kdeg_TTP*TTP   
+
+=>TTP:R65           
+vf = (ksyn_TTP_ZFP36*ZFP36)
+
+ZFP36=>:R66         
+vf = kdeg_ZFP36*ZFP36
+
+=>ZFP36:R67         
+vf = Vsyn_ZFP36     
+
+=>ZFP36:R68         
+vf = (ksyn_ZFP36_NFkB*NFkB*(1 + kalpha_ZFP36_NFkB_STAT3_p*STAT3_p))
+
+
+********** MODEL FUNCTIONS
+
+
+********** MODEL EVENTS
+
+
+********** MODEL MATLAB FUNCTIONS
+
+
