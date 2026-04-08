@@ -1,4 +1,4 @@
-# ODE Model Creator v2.0.0
+# ODE Model Creator v3.0.0
 
 A MATLAB-based object-oriented framework for automatically generating ordinary differential equation (ODE) models from biological network specifications defined in Excel spreadsheets.
 
