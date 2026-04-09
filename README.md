@@ -57,14 +57,8 @@ The ODE Model Creator streamlines the process of converting biological network d
    savepath
    ```
 
-3. **Verify Installation**
-   ```matlab
-   % Test that main classes are accessible
-   builder = ODEModelBuilder();
-   fprintf('ODE Model Creator is ready!\n');
-   ```
 
-4. **Configure Default Parameters** (Optional)
+3. **Configure Default Parameters** (Optional)
    - Edit `config/default_parameter_values.xlsx` to set parameter defaults for your models
    - Edit `config/default_config.m` to customize paths and options
 
@@ -151,15 +145,6 @@ The ODE Model Creator automatically generates a ready-to-run simulation script f
 - **MEX-based simulation** - Fast integration using compiled MEX file
 - **Automatic plotting** - Visualization of simulation results
 
-### Example Generated Script Usage
-
-```matlab
-% Navigate to output directory
-cd('output/EGFR_NFkB_ver_01')
-
-% Run the auto-generated simulation
-run_simulation_EGFR_NFkB_ver_01
-```
 
 ## Requirements
 
